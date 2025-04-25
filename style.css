@@ -1,0 +1,137 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.header-area {
+    background-color: #edf0f5;
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-area img {
+    width: 300px;
+    margin-left: -28px;
+}
+.logo-area h1{
+    width: 500px
+}
+
+
+.box-zone{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 25px 12px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.box-zone input {
+    display: block;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #c1c6cd;
+    color:rgb(27, 26, 26);
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    margin: 6px 0;
+}
+.box-zone input:focus{
+     border:2px solid blue;
+    
+}
+.box-zone input[type='submit'] {
+    background-color: #166fe5;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: #fff;
+    cursor: pointer;
+}
+.Forgotten{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
+.Forgotten:hover{
+    text-decoration: underline;
+}
+ hr {
+        align-items: center;
+        border-bottom: 1px solid #dadde1;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        display: flex;
+        margin: 20px 16px;
+        text-align: center;
+    }
+
+.create-new {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0px 16px;
+    background-color: #42b72a;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+}
+.Create-Page a{
+text-decoration: none;
+color: #000;
+font-weight: bold;
+}
+.Create-Page a:hover{
+    text-decoration: underline;
+}
+footer {
+    width: 80%;
+    margin: 50px auto;
+}
+.footer-top ul, .footer-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;margin: 0PX;
+    align-content: flex-end;
+}
+.footer-top ul li, .footer-bottom ul li {
+    margin-right: 10px;
+}
+.footer-top ul li a, .footer-bottom ul li a {
+    color: #8a8d91;
+    font-size: 12px;
+    text-decoration: none;
+  
+}
+.footer-bottom P{
+    color: #8a8d91;
+    font-size: 12px;
+   
+}
+#hrr{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+  

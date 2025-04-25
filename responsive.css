@@ -1,0 +1,23 @@
+@media(max-width:892px){
+    .header-area {
+        flex-direction: column;
+    }
+
+    }
+@media(max-width:545px){
+    .logo-area img {
+        width: 80%;
+       
+    }
+    .logo-area h1 {
+        width: 80%;
+    }
+}
+@media(max-width:464px){
+    .box-area{
+        width: 100%;
+    }
+    .box-zone{
+        width: 80%;
+    }
+}
